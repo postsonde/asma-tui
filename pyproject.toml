@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asma-tui"
+version = "0.1.0"
+description = "A terminal user interface (TUI) for learning and practicing the 99 Names of Allah (Asma-ul-Husna) with flashcards and quiz mode in Dracula theme."
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.10"
+authors = [
+    { name = "postsonde" },
+]
+keywords = ["asma-ul-husna", "99-names", "islam", "flashcards", "quiz", "tui", "terminal", "textual", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Education",
+    "Topic :: Religion",
+]
+dependencies = [
+    "httpx>=0.27.0",
+    "textual>=0.80.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/postsonde/asma-tui"
+Repository = "https://github.com/postsonde/asma-tui"
+Issues = "https://github.com/postsonde/asma-tui/issues"
+
+[project.scripts]
+asma = "asma_tui:main"
+
+[tool.setuptools]
+py-modules = ["asma_tui"]
