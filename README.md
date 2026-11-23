@@ -2,9 +2,9 @@
 
 A sleek terminal user interface (TUI) for learning the **99 Names of Allah** featuring an interactive **🔥 Streak Quiz Mode** and flashcards, built with [Textual](https://textualize.io) and the **Dracula** theme.
 
-![Asma-ul-Husna Flashcards](screenshot.png)
-![Asma-ul-Husna Streak Quiz Mode](screenshot2.png)
-![Asma-ul-Husna Directory Search](screenshot3.png)
+<p align="center">
+  <img src="screenshot_asma.gif" alt="Asma Terminal Suite Demo" width="85%" />
+</p>
 
 ## ✨ Key Features
 
@@ -44,7 +44,11 @@ GNU General Public License (GPLv3)
 
 ## ☪ Islamic Terminal Suite (Dracula Theme)
 
-Part of a collection of minimalist Islamic terminal apps styled in the Dracula dark theme:
+A minimalist suite of Islamic terminal applications built with Python & [Textual](https://textualize.io), styled in the [Dracula](https://draculatheme.com) dark theme.
+
+<p align="center">
+  <img src="islamic-tui-suite.gif" alt="Islamic Terminal Suite Demo" width="85%" />
+</p>
 
 | App | Command | Description |
 | :--- | :--- | :--- |
