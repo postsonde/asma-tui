@@ -18,7 +18,7 @@ A sleek terminal user interface (TUI) for learning the **99 Names of Allah** fea
 
 Install via [pipx](https://pypa.io):
 ```bash
-pipx install git+https://github.com/postsonde/asma-tui
+pipx install asma-tui
 ```
 Run the application:
 ```bash
@@ -38,7 +38,8 @@ asma
 | `q` | Quit |
 
 ## 📄 License
-GNU General Public License (GPLv3)
+
+GNU General Public License v3.0 (GNU GPLv3) 🄯 All Lights returned [postsonde](https://github.com/postsonde)
 
 ---
 
